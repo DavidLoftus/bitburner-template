@@ -1,0 +1,33 @@
+{
+    // Linter Settings
+    "eslint.enable": false,
+    "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
+
+    "deno.enable": true,
+    "deno.config": "deno.json",
+    "deno.importMap": "import_map.json",
+    "deno.lint": true,
+    "deno.unstable": false,
+
+    "editor.codeActionsOnSave": {"source.fixAll": true},
+
+    // Use Non-relative imports so the game can find files in its fake directory structure
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+
+    // Bitburner Extension Settings
+    "bitburner.scriptRoot": "./dist/",
+    "bitburner.authToken": "",
+
+    // Autosave Settings
+    "files.autoSave": "off",
+
+    // Autosnippet settings
+    "autoSnippet.snippets": [
+        {
+            "pattern": "**/*.ts", 
+            "snippet": "ns-template"
+        },
+    ],
+}

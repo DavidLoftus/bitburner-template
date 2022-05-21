@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@/": "./home/",
+    "@ns": "https://raw.githubusercontent.com/danielyxie/bitburner/dev/dist/bitburner.d.ts",
+    "std/": "https://deno.land/std@0.140.0/",
+    "esbuild": "https://deno.land/x/esbuild@v0.14.39/mod.js"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "importMap": "import_map.json",
+  "fmt": {
+    "options": {
+      "lineWidth": 100
+    }
+  },
+  "lint": {
+    "rules": {
+      "exclude": [
+        "require-await"
+      ]
+    }
+  }
+}
